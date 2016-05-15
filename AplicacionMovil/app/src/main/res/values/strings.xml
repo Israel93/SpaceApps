@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AlertaEC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="facebook_app_id">544744249063810</string>
+    <string name="com_facebook_loginview_log_out_button">Desconectarse de Facebook</string>
+    <string name="com_facebook_loginview_log_in_button">Conectarse en Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+
+
+    <string name="registro_nombre_campo_cedula">Cedula</string>
+    <string name="registro_nombre_label_datos_personales">Datos Generales</string>
+    <string name="registro_nombre_campo_abonado">Nombre</string>
+    <string name="registro_nombre_campo_domicilio">Domicilio</string>
+    <string name="registro_nombre_campo_telefono">Telefono</string>
+    <string name="registro_nombre_boton_telefono">Agregar Telefonos</string>
+    <string name="registro_nombre_campo_estadocivil">Estado Civil</string>
+    <string name="registro_nombre_campo_fechanacimiento">Fecha de Nacimiento</string>
+    <string name="registro_nombre_campo_conyuge">Conyuge</string>
+    <string name="registro_boton_registro">Registrarse</string>
+    <string name="registro_boton_guardar_telefono">Guardar</string>
+    <string name="registro_boton_salir_telefono">Salir</string>
+    <string name="registro_nombre_campo_lugarnacimiento">Lugar de Nacimiento</string>
+    <string name="registro_telefono_personal">Personal</string>
+    <string name="registro_telefono_emergencia">Emergencia</string>
+
+</resources>

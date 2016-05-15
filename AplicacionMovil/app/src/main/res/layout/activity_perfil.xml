@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.space.alertaec.PerfilActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenPerfil"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_perfil"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonConectarFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="@android:color/white"
+                android:text="Conectar con Facebook"
+                android:background="@drawable/round_corner"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/facebookFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/identidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos de Identidad"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    </LinearLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datocedulaperfil"
+            android:hint="Cedula"
+            android:inputType="textFilter|textNoSuggestions"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoNombreperfil"
+            android:hint="Nombre"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datofechadenacimientoperfil"
+            android:hint="Fecha de Nacimiento"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datodomicilioperfil"
+            android:hint="Domicilio"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datocorreoperfil"
+            android:hint="Correo Electronico"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout> -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datocondicionperfil"
+            android:hint="Condicion"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoestadocivilperfil"
+            android:hint="Estado Civil"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datogeneroperfil"
+            android:hint="Genero"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoinstruccionperfil"
+            android:hint="Instruccion"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoLugarNacimientoperfil"
+            android:hint="Lugar de Nacimiento"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datonacionalidadperfil"
+            android:hint="Nacionalidad"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datonombrepadreperfil"
+            android:hint="Nombre de Padre "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datonombremadreperfil"
+            android:hint="Nombre de Madre "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoprofesionperfil"
+            android:hint="Profesion"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datoconyugeperfil"
+            android:hint="Conyuge"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="@null"
+            android:focusable="false"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="5"
+        android:hint="Telefono">
+        <ListView
+            android:id="@+id/listatelefonoperfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>
