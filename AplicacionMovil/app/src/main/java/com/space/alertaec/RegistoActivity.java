@@ -78,7 +78,7 @@ public class RegistoActivity extends AppCompatActivity implements Observador{
         editCedula = (EditText) findViewById(R.id.editCedula);
         editNombre = (EditText) findViewById(R.id.editNombre);
         editFechanacimiento = (EditText) findViewById(R.id.editfechanacimiento);
-        editLugarnacimiento = (EditText) findViewById(R.id.datoLugarNacimientoperfil);
+        editLugarnacimiento = (EditText) findViewById(R.id.editlugarnacimiento);
         editDomicilio = (EditText) findViewById(R.id.editDomicilio);
         editEstadocivil = (EditText) findViewById(R.id.editestadocivil);
         editConyuge=(EditText)findViewById(R.id.editconyuge);
