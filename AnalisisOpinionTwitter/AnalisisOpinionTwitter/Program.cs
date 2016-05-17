@@ -10,17 +10,17 @@ namespace AnalisisOpinionTwitter
         static void Main(string[] args)
         {
             // Aplicando credenciales. Si se utilizan por primera vez, set up the ApplicationCredentials
-            Auth.SetUserCredentials("z3Gwm3vT5JvmVpQNKSvkUieRK", 
-                "gRqn0EjNPeS2csrAhoC4HLf3DPxLU7vPDzXHoAyY2B9gVhw6Lo", 
-                "234877388-zmdhC04XrbQtW7vtQdo6LTkOCtRmOXZdHOb6ukau", 
-                "cofm844PuyA3ejcTZoIJfhM7rAmCsLfq2tXI1cc4q3Lqe");
+            Auth.SetUserCredentials("Consumer Key", //Consumer Key
+                "Consumer Secret", //Consumer Secret
+                "Access Token", //Access Token
+                "Access Token Secret"); //Access Token Secret
 
             // Si hay un nuevo tema creado, credenciales por defecto de API twitter Application Credentials
             Auth.ApplicationCredentials = new TwitterCredentials(
-                "z3Gwm3vT5JvmVpQNKSvkUieRK", 
-                "gRqn0EjNPeS2csrAhoC4HLf3DPxLU7vPDzXHoAyY2B9gVhw6Lo", 
-                "234877388-zmdhC04XrbQtW7vtQdo6LTkOCtRmOXZdHOb6ukau", 
-                "cofm844PuyA3ejcTZoIJfhM7rAmCsLfq2tXI1cc4q3Lqe");
+                "Consumer Key", 
+                "Consumer Secret", 
+                "Access Token", 
+                "Access Token Secret");
 
             
             Stream_FilteredStreamExample();

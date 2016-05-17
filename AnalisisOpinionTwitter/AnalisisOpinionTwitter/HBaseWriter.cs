@@ -12,10 +12,10 @@ namespace AnalisisOpinionTwitter
 {
     class HBaseWriter
     {            // HDinsight HBase cluster and HBase table information
-            const string CLUSTERNAME = "https://alertec1.azurehdinsight.net/";
-            const string HADOOPUSERNAME = "***; //the default name is "admin"
-            const string HADOOPUSERPASSWORD = "**";
-            const string HBASETABLENAME = "tweets_por_palabras";
+            const string CLUSTERNAME = "https://nameweb.azurehdinsight.net/";
+            const string HADOOPUSERNAME = "username"; //the default name is "admin"
+            const string HADOOPUSERPASSWORD = "password";
+            const string HBASETABLENAME = "tablehbs";
 
             // Sentiment dictionary file and the punctuation characters
             const string DICTIONARYFILENAME = @"..\..\data\dictionary\dictionary.tsv";
